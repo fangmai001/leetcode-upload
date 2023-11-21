@@ -1,4 +1,3 @@
-
 <?php
 
 class Solution {
@@ -9,10 +8,11 @@ class Solution {
      * @return Integer
      */
     function sum($num1, $num2) {
-        return $num1 + $num2;
+     return   $num1+$num2;
     }
 }
 
-$solution = new Solution();
-echo($solution->sum(12, 5))
+$s = new Solution();
+echo ($s->sum(8,15))
+
 ?>

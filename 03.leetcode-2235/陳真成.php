@@ -1,6 +1,4 @@
-
-<?php
-
+<?php 
 class Solution {
 
     /**
@@ -8,11 +6,13 @@ class Solution {
      * @param Integer $num2
      * @return Integer
      */
+
     function sum($num1, $num2) {
         return $num1 + $num2;
     }
 }
 
-$solution = new Solution();
-echo($solution->sum(12, 5))
+$solution =new solution();
+echo ($solution ->sum(12,5));
+
 ?>
