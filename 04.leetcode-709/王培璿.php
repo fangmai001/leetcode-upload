@@ -1,4 +1,5 @@
 <?php
+
 class Solution {
 
     /**
@@ -6,8 +7,8 @@ class Solution {
      * @return String
      */
     function toLowerCase($s) {
-        $s=strtolower($s);
-        return $s;
-        }
+     return   mb_strtolower($s);
     }
+}
+
 ?>
