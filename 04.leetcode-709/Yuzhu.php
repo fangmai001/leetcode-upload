@@ -1,8 +1,13 @@
 <?php
 class Solution {
-public:
-    string toLowerCase(string s) {
-        
+
+    /**
+     * @param String $s
+     * @return String
+     */
+    function toLowerCase($s) {
+        $s=strtolower($s);
+        return $s;
+        }
     }
-};
 ?>
