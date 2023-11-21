@@ -1,9 +1,18 @@
 
 <?php
+
 class Solution {
-    public:
-        int sum(int num1, int num2) {
-            
-        }
-    };
+
+    /**
+     * @param Integer $num1
+     * @param Integer $num2
+     * @return Integer
+     */
+    function sum($num1, $num2) {
+        return $num1 + $num2;
+    }
+}
+
+$solution = new Solution();
+echo($solution->sum(12, 5))
 ?>
