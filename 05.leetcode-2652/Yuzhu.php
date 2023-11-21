@@ -8,5 +8,5 @@ class Solution {
         ans += i;
     return ans;
   }
-};
+}
 ?>
