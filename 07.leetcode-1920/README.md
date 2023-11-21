@@ -1,3 +1,3 @@
-# leetcode-1929
+# leetcode-1920
 
-這裡放 leetcode 1929 答案。
+這裡放 leetcode 1920 答案。
